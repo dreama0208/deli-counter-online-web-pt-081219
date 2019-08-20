@@ -20,5 +20,9 @@ def line(a_customers)
 end
 
 def now_serving(a_customers)
+  if a_customers.length == 0
+    puts "There is nobody waiting to be served!"
+  else
   puts "Currently serving #{a_customers.first}."
+  end
 end
