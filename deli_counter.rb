@@ -25,5 +25,5 @@ def now_serving(a_customers)
   else
   puts "Currently serving #{a_customers.first}."
   end
-  a_customers.pop
+  a_customers.shift
 end
